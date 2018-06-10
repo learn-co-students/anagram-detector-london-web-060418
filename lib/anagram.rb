@@ -17,4 +17,10 @@ def match(possible_anagrams)
   anagrams
 end
 
+#SAME AS:
+  # def match(possible_anagrams)
+  #   #returns an array of words that meet the condition
+  #   possible_anagram.select {|word| word.split("").sort == @word.split("").sort}
+  # end
+
 end
